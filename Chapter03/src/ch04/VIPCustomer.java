@@ -1,5 +1,6 @@
 package ch04;
 
+// Customer(상위) 클래스가 VIPCustomer(하위) 클래스에게 상속한다.
 public class VIPCustomer extends Customer {
     private String agentID;
     double salesRatio;
@@ -21,6 +22,7 @@ public class VIPCustomer extends Customer {
         bonusRatio = 0.05;
     }
 
+    // Override : 상위 클래스에 정의된 메소드를 하위 클래스에서 다시 정의한다.
     @Override
     public int calcPrice(int price) {
         bonusPoint += price * bonusRatio;

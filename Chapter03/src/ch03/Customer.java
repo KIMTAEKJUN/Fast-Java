@@ -1,6 +1,8 @@
 package ch03;
 
 public class Customer {
+    // private 변수로 선언 시 하위 클래스인 VIPCustomer 생에서 접근 할 수 없기때문에, protected 라는 접근 제어자를 사용
+    // 다만, 외부 클래스에선 접근 할 수 없음, 하위 클래스는 접근 가능
     protected int customerID;
     protected String customerName;
     protected String customerGrade;

@@ -9,7 +9,8 @@ public class CustomerTest {
         VIPCustomer customerKim = new VIPCustomer(10020, "김유신");
         customerKim.bonusPoint = 10000;
         System.out.println(customerKim.showCustomerInfo());
-        
+
+        // vc 변수는 Customer 클래스의 멤버 변수와 메서드만 사용가능
         Customer vc = new VIPCustomer(12345, "noname");
 
    }
