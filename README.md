@@ -3,8 +3,8 @@
 <br/>
 
 > ## **강의보고 공부하기 ( JAVA )**
-> > 강의자료 : https://gitlab.com/easyspubjava/javacoursework/-/tree/master/  
-> > 실습자료 : https://github.com/easyspubjava/FastCampus
+> 강의자료 : https://gitlab.com/easyspubjava/javacoursework/-/tree/master/  
+> 실습자료 : https://github.com/easyspubjava/FastCampus
 
 1. [자바 기초](https://github.com/Kuah0/FAST_JAVA/tree/master/Chapter01)
 
