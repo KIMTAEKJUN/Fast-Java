@@ -3,7 +3,7 @@ package ch13.domain.userinfo.dao.oracle;
 import ch13.domain.userinfo.UserInfo;
 import ch13.domain.userinfo.dao.UserInfoDao;
 
-// UserInfoOracleDao 클래스가 UserInfoDao를 상속받는다.
+// UserInfoOracleDao 클래스가 UserInfoDao 클래스를 상속받는다.
 public class UserInfoOracleDao implements UserInfoDao {
     @Override
     public void insertUserInfo(UserInfo userInfo) {
