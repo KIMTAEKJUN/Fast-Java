@@ -18,7 +18,7 @@ public class CustomerTest {
         customerList.add(customerP);
         customerList.add(customerK);
 
-        for( Customer customer : customerList ) {
+        /* for( Customer customer : customerList ) {
             System.out.println(customer.showCustomerInfo());
         }
 
@@ -28,6 +28,12 @@ public class CustomerTest {
 
             System.out.println(customer.getCustomerName() + "님이 " + cost + "원 지불하셨습니다.");
             System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트는 " + customer.bonusPoint + "입니다.");
+        } */
+
+        // instanceof : 객체가 어떤 클래스인지, 어떤 클래스를 상속받았는지 확인하는데 사용하는 연산자
+        if( customerE instanceof GoldCustomer ) {
+            GoldCustomer vc = (GoldCustomer) customerE;
+            System.out.println(customerE.showCustomerInfo());
         }
    }
 }
