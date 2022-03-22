@@ -4,7 +4,9 @@
 
 - String 선언하기
 ```
+    // 힙의 메모리가 생성이 된다.
     String str1 = new String("abc");
+    // 상수 풀에 "abc"란 String이 있고, 그 String의 address만 가르킨다.
     String str2 = "abc";
 ```
 
