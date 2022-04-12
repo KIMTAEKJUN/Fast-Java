@@ -11,6 +11,7 @@ public class TestMain {
     School goodSchool = School.getInstance();
     Subject korean;
     Subject math;
+    Subject dance;
 
     GenerateGradeReport gradeReport = new GenerateGradeReport();
 
@@ -29,9 +30,13 @@ public class TestMain {
     public void createSubject() {
         korean = new Subject(Define.KOREAN, "국어");
         math = new Subject(Define.MATH, "수학");
+        dance = new Subject(Define.DANCE, "방송댄스");
+
+        dance.setGradeType(Define.PF_TYPE);
 
         goodSchool.addSubject(korean);
         goodSchool.addSubject(math);
+        goodSchool.addSubject(dance);
     }
 
     // 테스트 학생 생성
@@ -60,6 +65,10 @@ public class TestMain {
         math.register(student4);
         math.register(student5);
 
+        dance.register(student1);
+        dance.register(student2);
+        dance.register(student3);
+
         addScoreForStudent(student1, korean, 95);
         addScoreForStudent(student1, math, 56);
 
@@ -74,6 +83,10 @@ public class TestMain {
 
         addScoreForStudent(student5, korean, 83);
         addScoreForStudent(student5, math, 56);
+
+        addScoreForStudent(student1, dance, 95);
+        addScoreForStudent(student2, dance, 85);
+        addScoreForStudent(student3, dance, 55);
     }
 
     // 과목별 성적 입력

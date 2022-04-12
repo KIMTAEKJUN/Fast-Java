@@ -1,7 +1,6 @@
 package school;
 
 import java.util.ArrayList;
-import utils.Define;
 
 public class Student {
     private int studentID;
