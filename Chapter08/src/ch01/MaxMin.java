@@ -1,3 +1,5 @@
+//package ch01;
+//
 //public class MaxMin {
 //    public static void main(String[] args) {
 //        int[] arr = {10, 55, 23, 2, 79, 101, 16, 82, 30, 45};
