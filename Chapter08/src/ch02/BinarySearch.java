@@ -26,7 +26,7 @@ public class BinarySearch {
             temp = numbers[mid];
         }
 
-        if (find == true) {
+        if (find) {
             mid++;
             System.out.println("찾는 수는 " + mid + "번째에 있습니다." );
         } else {
