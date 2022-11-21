@@ -3,8 +3,8 @@ package ch09;
 public class BruteForceSearch {
 
 	public static void main(String[] args) {
-		int[] bills = { 1, 2, 5, 10, 20, 50 };
-		
+		int[] bills = {1, 2, 5, 10, 20, 50};
+
 		int count = 0;
 		int money = 100;
 		int i0, i1, i2, i3, i4;
@@ -21,4 +21,6 @@ public class BruteForceSearch {
 			}
 		}
 
-		System.out.println("吏
+		System.out.println("지불 가능한 가지 수는 : " + count + "가지 입니다.");
+	}
+}
